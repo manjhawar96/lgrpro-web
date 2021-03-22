@@ -6,8 +6,8 @@ import img from './img.png';
 function BrandInfoPage() {
     return (
         <Container className="slider-page d-flex justify-content-center align-items-center"> 
-            <Row className="middle-row d-flex justify-content-around align-items-center">
-                <Col className="col-images col-8">
+            <Row className="middle-row d-flex justify-content-center align-items-center">
+                <Col className="col-images">
                     <img className="screencap left-offset" src={img} alt="creator screencap"/>
                 </Col>
                 <Col className="text-left col-data">

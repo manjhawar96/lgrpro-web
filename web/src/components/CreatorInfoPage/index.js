@@ -6,7 +6,7 @@ import img from './img.png';
 function CreatorInfoPage() {
     return (
         <Container className="slider-page d-flex justify-content-center align-items-center"> 
-            <Row className="middle-row d-flex justify-content-around align-items-center">
+            <Row className="middle-row d-flex justify-content-center align-items-center">
                 <Col className="text-right col-data">
                     <h3>Hey Creators!</h3>
                     <p>
@@ -23,7 +23,7 @@ function CreatorInfoPage() {
                         The best part? <b>No middle man</b>
                     </p>
                 </Col>
-                <Col className="col-images col-8">
+                <Col className="col-images">
                     <img className="screencap right-offset" src={img} alt="creator screencap"/>
                 </Col>
             </Row>

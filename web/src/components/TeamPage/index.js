@@ -10,7 +10,7 @@ function TeamPage() {
         <Container className="slider-page d-flex container-fluid justify-content-center align-items-center"> 
             <Row className="d-flex justify-content-between align-items-center">
                 <Col>
-                    <Card style={{ width: '25rem', border: 'none'}}>
+                    <Card style={{ width: '15rem', border: 'none'}}>
                         <Card.Img className="right-offset" variant="top" src={imgex} />
                         <Card.Body>
                             <Card.Title><a href="https://www.linkedin.com/in/emma-xia/">Emma Xia</a></Card.Title>
@@ -21,7 +21,7 @@ function TeamPage() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '25rem', border: 'none'}}>
+                    <Card style={{ width: '15rem', border: 'none'}}>
                         <Card.Img className="right-offset" variant="top" src={imgmj} />
                         <Card.Body>
                             <Card.Title><a href="https://www.linkedin.com/in/manesh-jhawar-b07035125/">Manesh Jhawar</a></Card.Title>
