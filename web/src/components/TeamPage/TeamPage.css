@@ -1,0 +1,16 @@
+.col-4 {
+    max-width: 100% !important;
+}
+
+.team-member__image {
+    height: 33%;
+    width: 33% !important;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .team-member__image {
+        height: 100%;
+        width: 100% !important;
+    }
+}
