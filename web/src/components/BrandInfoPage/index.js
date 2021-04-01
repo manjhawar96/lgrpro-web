@@ -6,11 +6,11 @@ import img from './img.png';
 function BrandInfoPage() {
     return (
         <Container className="slider-page d-flex justify-content-center align-items-center"> 
-            <Row className="middle-row d-flex justify-content-center align-items-center">
-                <Col className="col-images">
+            <Row className="middle-row d-flex justify-content-center flex-column flex-lg-row flex-md-row align-items-center">
+                <Col className="col-images order-1 order-md-0 order-lg-0">
                     <img className="screencap left-offset" src={img} alt="creator screencap"/>
                 </Col>
-                <Col className="text-left col-data">
+                <Col className="text-left col-data order-0 order-md-1 order-lg-1">
                     <h3> Greetings, Brands!</h3>
                     <p>
                         Listing platform for brands, eliminating the need for hiring contracting agencies to get infleuncers. 

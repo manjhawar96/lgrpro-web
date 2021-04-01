@@ -72,7 +72,8 @@ code {
 }
 
 .screencap {
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 .right-offset {
