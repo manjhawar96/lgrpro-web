@@ -1,0 +1,8 @@
+.ribbon {
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  top: 60px;
+  left: 0;
+}

@@ -3,16 +3,25 @@
   "name": "gatsby",
   "version": "1.0.0",
   "dependencies": {
+    "autoprefixer": "^10.3.1",
     "gatsby": "^2.18.14",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-postcss": "^4.10.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
-    "@vercel/node": "1.9.0"
+    "@vercel/node": "1.9.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0"
   },
   "scripts": {
     "dev": "gatsby develop",
