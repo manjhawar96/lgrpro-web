@@ -15,9 +15,6 @@ export default function Footer() {
         >
           Coming 2022
         </h1>
-        <button className="sendEmailBtn">
-          Enter email to get notified first
-        </button>
       </Container>
     </footer>
   );

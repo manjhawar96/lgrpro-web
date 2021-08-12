@@ -8,7 +8,12 @@ export default function Importance() {
     <section id="importance">
       <Container className="container">
         <img src={art} alt="not found" />
-        <h1 className="title">
+        <h1 
+          className="title"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="370"
+          data-aos-delay="10">
           Why We Are
           <br /> Different
         </h1>
@@ -28,7 +33,7 @@ export default function Importance() {
         </div>
         <div
           className="first-right"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-delay="10"
           data-aos-duration="370"
@@ -42,7 +47,7 @@ export default function Importance() {
         </div>
         <div
           className="second-left"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="370"
           data-aos-delay="10"

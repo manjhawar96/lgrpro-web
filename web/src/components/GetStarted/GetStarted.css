@@ -5,6 +5,10 @@
   z-index: 10;
 }
 
+.modal-content { 
+  background-color: #f8f2d1;
+}
+
 #getStarted .title {
   font-size: clamp(3rem, 5vw, 4rem);
   width: 80%;
@@ -63,3 +67,4 @@
     font-size: 1.2rem;
   }
 }
+

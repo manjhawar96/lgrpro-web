@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState }from "react";
 import "./GetStarted.css";
 import getStarted from "../../assets/getStarted.png";
-import { Container } from "react-bootstrap";
+import { Container, Modal} from "react-bootstrap";
+import Input from '../Input';
 
 export default function GetStarted() {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <section id="getStarted">
       <img
@@ -45,9 +52,23 @@ export default function GetStarted() {
             data-aos-delay="20"
             data-aos-duration="1000"
             easing="ease-in"
+            onClick={handleShow}
           >
-            <strong>Get Started</strong> - It's free
+          <strong>Get on the Waitlist</strong> - It's free
           </button>
+          <Modal
+            className={"signup-modal"}
+            show={show}
+            onHide={handleClose}
+            backdrop="static"
+            keyboard={false}
+          >
+            <Modal.Header closeButton>
+            </Modal.Header>
+            <Modal.Body>
+              <Input />
+            </Modal.Body>
+          </Modal>
         </div>
       </Container>
     </section>
