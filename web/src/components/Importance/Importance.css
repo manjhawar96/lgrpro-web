@@ -1,7 +1,7 @@
 #importance {
   margin: 14rem 0 0 0;
-  height: 230vh;
 }
+
 #importance .container {
   position: relative;
   z-index: 5;
@@ -74,7 +74,6 @@
 @media only screen and (max-width: 768px) {
   #importance {
     margin: 5rem 0 0 0;
-    height: 130vh;
   }
   #importance img {
     width: auto;

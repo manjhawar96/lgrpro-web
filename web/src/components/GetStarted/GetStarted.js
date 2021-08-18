@@ -19,7 +19,7 @@ export default function GetStarted() {
         className="startedImg"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        data-aos-delay="10"
+        data-aos-delay="5"
         data-aos-duration="370"
         easing="ease-in-cubic"
       />

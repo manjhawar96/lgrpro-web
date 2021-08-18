@@ -46,24 +46,6 @@ export default function Team() {
                 manesh.jhawar@gmail.com
               </h3>
             </div>
-            <div 
-              className="member"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="500"
-              data-aos-duration="1000">
-              <img
-                src={member3}
-                alt="Nick"
-              />
-              <h3 className="memberInfo">
-                Nick Zhang
-                <br />
-                CTO, Nerdy kid
-                <br />
-                nzhang.jiahui@gmail.com
-              </h3>
-            </div>
           </div>
         </div>
       </Container>

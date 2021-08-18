@@ -18,7 +18,7 @@
 #getStarted .startedImg {
   position: absolute;
   right: 3rem;
-  bottom: -13rem;
+  bottom: -10rem;
   z-index: -1;
   width: 50%;
 }
